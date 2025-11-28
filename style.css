@@ -1,0 +1,99 @@
+/* ====== RESET ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ffe9d6;     /* warna lembut seperti suasana toko kue */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ====== HEADER ====== */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #d35400;
+}
+
+/* ====== LOGIN & FORM BOX ====== */
+.login-box, form {
+    background: #ffffff;
+    width: 320px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ====== INPUT ====== */
+input, button, select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+/* ====== BUTTON ====== */
+button, .menu-button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover, .menu-button:hover {
+    background-color: #ff5722;
+}
+
+/* ====== MENU BUTTON ====== */
+.menu-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 22px;
+    margin: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+/* ====== TABLE ====== */
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    background: #ff7f50;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+table tr:hover {
+    background: #fff3e6;
+}
+
+/* ====== LINKS ====== */
+a {
+    text-decoration: none;
+    color: #d35400;
+}
+
+a:hover {
+    color: #ff5722;
+}
